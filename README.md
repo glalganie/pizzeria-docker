@@ -31,3 +31,5 @@ La pagina web inclusa (`index.html`) presenta un menù a tema pizzeria con rifer
 
 - La porta 80 del container è esposta sulla porta 8080 del tuo host.
 - Puoi personalizzare la pagina modificando `index.html`.
+
+  ![pizzadocker](https://github.com/user-attachments/assets/20770583-59de-4b29-8fd1-7aef7c84d8d3)
