@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria da Docker</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f1de;
+            color: #3d405b;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+            border-top: 10px solid #d9534f;
+        }
+
+        h1 {
+            color: #d9534f;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        h1 .icon {
+            font-size: 1.2em;
+        }
+
+        p.slogan {
+            font-size: 1.2em;
+            color: #81b29a;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #3d405b;
+            border-bottom: 2px solid #f2cc8f;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        .menu-list li {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="icon">🍕</span> Pizzeria da Docker <span class="icon">🐳</span></h1>
+        <p class="slogan">Le Pizze più Veloci del Quartiere, Servite in un Container!</p>
+
+        <h2>Il Nostro Menù Speciale</h2>
+        <ul class="menu-list">
+            <li><strong>La Classica `Dockerfile`</strong> - Pomodoro, mozzarella e basilico. Semplice, essenziale, perfetta.</li>
+            <li><strong>La Piccante `Container`</strong> - Salame piccante e peperoncino. Leggera, isolata e pronta in pochi secondi.</li>
+            <li><strong>La `Compose` ai Quattro Formaggi</strong> - Un'armonia di quattro servizi... ehm, formaggi!</li>
+            <li><strong>La `Volume` Persistente</strong> - Con extra mozzarella che non se ne va mai, neanche dopo un riavvio!</li>
+        </ul>
+        
+        <div class="footer">
+            Questa pagina è servita da un web server Nginx che gira felicemente dentro un container Docker.
+        </div>
+    </div>
+</body>
+</html>
